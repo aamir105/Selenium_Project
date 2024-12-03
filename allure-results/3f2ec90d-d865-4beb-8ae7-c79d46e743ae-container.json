@@ -1,0 +1,1 @@
+{"uuid":"3f2ec90d-d865-4beb-8ae7-c79d46e743ae","name":"testcases.SalaryPageTest.setUp","children":["88eeae34-95cb-49c9-931c-cc651b44ea94"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730805771890,"stop":1730805791329}],"afters":[],"start":1730805771888,"stop":1730805791331}

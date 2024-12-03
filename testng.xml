@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ListnerClass.TestListener"/>
+    </listeners>
+
+    <test name="Jooble Test">
+        <classes>
+            <class name="testcases.LoginPageTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/g/IdeaProjects/SeleniumAutomationJooble/src/test/java/testcases">
+        <classes>
+            <class name="testcases.ApplyFilterPageTest">
+                <methods>
+                    <include name="TestApplyFilterPage"/>
+                </methods>
+            </class>
+            <class name="testcases.JobVacanciesSearchPageTest">
+                <methods>
+                    <include name="LoginPageSearchTest"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginPageTest">
+                <methods>
+                    <include name="loginPageTitleTest"/>
+                    <include name="logoTest"/>
+                    <include name="loginTest"/>
+                    <include name="LoginWithMultipleUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

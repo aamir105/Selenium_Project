@@ -1,0 +1,1 @@
+{"uuid":"0e8d48fa-d3e4-473d-b375-a52dabfda47d","name":"SeleniumAutomationJooble","children":["678b92f0-ace9-456a-9f2f-e2fd626593f3"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1730960597874,"stop":1730960598678}],"start":1730960586591,"stop":1730960598679}
